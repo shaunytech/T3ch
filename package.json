@@ -1,0 +1,17 @@
+{
+  "name": "learn-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:image-mapping": "playwright test tests/image-mapping.spec.ts"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "csv-parse": "^7.0.2",
+    "sharp": "^0.35.4"
+  }
+}

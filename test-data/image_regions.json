@@ -1,0 +1,7 @@
+[
+  { "image": "xbox white", "region": "US" },
+  { "image": "xbox green", "region": "UK" },
+  { "image": "xbox green", "region": "JP" },
+  { "image": "nintendo", "region": "FR" },
+  { "image": "nintendo", "region": "DE" }
+]

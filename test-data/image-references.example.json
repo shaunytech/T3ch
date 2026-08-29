@@ -1,0 +1,10 @@
+{
+  "xbox": {
+    "asset": "test-data/assets/xbox.png",
+    "xboxImageUrl": "https://replace-with-a-direct-xbox-image-url.png"
+  },
+  "nintendo": {
+    "asset": "test-data/assets/nintendo.png",
+    "xboxImageUrl": "https://replace-with-a-direct-nintendo-image-url.png"
+  }
+}

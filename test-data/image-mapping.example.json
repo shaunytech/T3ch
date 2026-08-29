@@ -1,0 +1,14 @@
+{
+  "mappings": [
+    { "location": "US", "image": "Xbox" },
+    { "location": "UK", "image": "Xbox" },
+    { "location": "JP", "image": "Xbox" }
+  ],
+  "images": [
+    {
+      "name": "Xbox",
+      "asset": "test-data/assets/Xbox.png",
+      "xboxImageUrl": "https://example.com/replace-with-the-direct-xbox-image-url.png"
+    }
+  ]
+}
