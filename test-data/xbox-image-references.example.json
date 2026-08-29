@@ -1,0 +1,10 @@
+{
+  "xbox white": {
+    "asset": "test-data/assets/xbox-white.png",
+    "xboxImageUrl": "https://replace-with-direct-xbox-white-image-url.png"
+  },
+  "xbox green": {
+    "asset": "test-data/assets/xbox-green.png",
+    "xboxImageUrl": "https://replace-with-direct-xbox-green-image-url.png"
+  }
+}
