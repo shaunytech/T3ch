@@ -1,17 +1,12 @@
 import { test, expect } from '@playwright/test';
 
 test('example test', async ({ page }) => {
-  await page.goto('https://yahoo.com');
-  await expect(page).toHaveTitle(/Yahoo/);
+  await page.goto('https://example.com');
+  await expect(page).toHaveTitle(/Example Domain/);
 });
 
 test('click a link', async ({ page }) => {
-  await page.goto('https://www.yahoo.com/');
-  const [page2] = await Promise.all([
-    page.waitForEvent('popup'),
-    page.getByRole('link', { name: /check your mail/i }).click(),
-  ]);
-
-  await expect(page2).toHaveURL(/https:\/\/login\.yahoo\.com\//);
-  await page2.waitForURL(/https:\/\/mail\.yahoo\.com\//, { timeout: 60000 });
+  await page.goto('https://example.com');
+  await page.locator('a').first().click();
+  await expect(page).toHaveURL(/https:\/\/www\.iana\.org\//);
 });
