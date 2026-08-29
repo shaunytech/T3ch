@@ -12,6 +12,6 @@ test('click a link', async ({ page }) => {
     page.getByRole('link', { name: /check your mail/i }).click(),
   ]);
 
-  await expect(page2).toHaveURL(/https:\/\/login\.yahoo\.com\//);
+  await expect(page2).toHaveURL(/https:\/\/mail\.yahoo\.com\//);
   await page2.waitForURL(/https:\/\/mail\.yahoo\.com\//, { timeout: 60000 });
 });
