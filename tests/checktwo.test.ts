@@ -6,7 +6,12 @@ test('example test', async ({ page }) => {
 });
 
 test('click a link', async ({ page }) => {
-  await page.goto('https://example.com');
-  await page.locator('a').first().click();
-  await expect(page).toHaveURL(/https:\/\/www\.iana\.org\//);
+  await page.goto('https://www.yahoo.com/');
+  const [page2] = await Promise.all([
+    page.waitForEvent('popup'),
+    page.getByRole('link', { name: /check your mail/i }).click(),
+  ]);
+
+  await expect(page2).toHaveURL(/https:\/\/mail\.yahoo\.com\//);
+  await page2.waitForURL(/https:\/\/mail\.yahoo\.com\//, { timeout: 60000 });
 });
