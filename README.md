@@ -176,3 +176,13 @@ test-data/
 - Tests require internet connectivity to fetch images from xbox.com
 - Image URLs are deduplicated to avoid redundant processing
 - The test gracefully handles malformed SVG/XML that cannot be hashed
+
+## Documentation
+
+Professional recommendations and career documentation:
+
+- [Documentation Index](docs/DOCUMENTATION_INDEX.md) - Links to all professional documentation
+  - [Letters of Recommendation](docs/letters-of-recommendation/) - Professional endorsements from QA managers, product owners, and engineers
+  - [LinkedIn Recommendations](docs/letters-of-recommendation/linkedin-recommendations.md) - Professional recommendations from colleagues
+
+These documents are provided for professional reference and are not part of the test framework.
