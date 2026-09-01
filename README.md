@@ -1,4 +1,4 @@
-# Learn Playwright - Image Region Mapping Tests
+ Image Region Mapping Tests
 
 A Playwright-based test framework that validates Xbox region-specific images across different geographies using perceptual hashing and data mapping validation.
 
