@@ -20,7 +20,7 @@ Professional recommendations from colleagues and managers:
 
 ## Career Highlights
 
-Key achievements and professional milestones are documented in the project workspace.
+- [Career Highlights](career-highlights.md) - Professional summary, key achievements, and technical skills
 
 ---
 
